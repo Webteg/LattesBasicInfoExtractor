@@ -51,7 +51,7 @@
             }else{
                 echo '<td></td>';
                 echo '<td class="foto-aluno"><div class="foto-alunodiv" style="background-image: url('."'".$foto.$kid."'".');"></div></td>'."\r\n";
-                echo '<td class="nome-aluno"><a href="http://lattes.cnpq.br/'.$data[1].'">'.trim($data[0]).'</a>, '.$data[2].'</td>'."\r\n";
+                echo '<td class="nome-aluno"><a href="http://lattes.cnpq.br/'.$data[1].'">'.trim($data[0]).'</a> <span style="font-size: 30%">('.$data[2].')</span></td>'."\r\n";
             }
             
             echo '</tr>'."\r\n";
